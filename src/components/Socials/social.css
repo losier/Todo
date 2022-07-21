@@ -1,0 +1,32 @@
+.social_media {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--color-lightest-grey);
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid var(--color-lightest-grey);
+}
+
+.social_media a {
+    background-color: var(--color-tint-black);
+    color: var(--color-white);
+    padding: 0.8rem;
+    border-radius: 0.7rem;
+    display: flex;
+    border: 1px solid transparent;
+}
+
+.social_media a:hover {
+    color: var(--color-tint-black);
+    background: var(--color-lightest-blue);
+    border: 1px solid var(--color-light-blue);
+}
+
+.copyright {
+    justify-content: center;
+    text-align: center;
+    font-family: "SFmono";
+    letter-spacing: 0.1em;
+}

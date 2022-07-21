@@ -1,0 +1,22 @@
+:root {
+  --color-lightest-blue: #E1FCFD;
+  --color-green: #00d073;
+  --color-red: #ff013d;
+  --color-light-green: hsl(98 100% 62%);
+  --color-light-blue: hsl(204 100% 59%);
+  --color-white: #fff;
+  --color-black: #000;
+  --color-lightest-grey: rgb(228, 222, 222);
+  --color-tint-black: #1A202C;
+  --color-tint-green: #1de9b6;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Raleway', sans-serif;
+  background: var(--color-black);
+  /* color: var(--color-white); */
+  line-height: 1,7;
+}
